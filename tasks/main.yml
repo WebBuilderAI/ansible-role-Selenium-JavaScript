@@ -1,0 +1,6 @@
+---
+- name: Install Selenium library with npm
+  community.general.npm:
+    name: selenium-webdriver
+    global: true
+  become: true
